@@ -174,6 +174,18 @@ public class TrabajoPractico1 {
                  P12 ejercicio12 = new P12(diaNac, mesNac, anioNac, diaAct, mesAct, anioAct);
                  edad = ejercicio12.edad();
                  System.out.println("La edad es " + edad + " años");
+             case 14:
+                 int a14, b14, c14;
+                 System.out.println("Ingresar tres números, ordenarlos en forma ascendente y presentarlos por pantalla. ");
+                 System.out.println("Ingrese el primer valor");
+                 a14 = teclado.nextInt();
+                 System.out.println("Ingrese el segundo valor");
+                 b14 = teclado.nextInt();
+                 System.out.println("Ingrese el tercer valor");
+                 c14 = teclado.nextInt();
+                 P14 ejercicio14 = new P14(a14, b14, c14);
+                 ejercicio14.ordenar();
+                 break;
              default:
                 System.out.println("Numero incorrecto");
                 break;    
